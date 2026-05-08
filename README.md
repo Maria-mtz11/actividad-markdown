@@ -13,8 +13,7 @@ Repositorio deejemplo para practicar Git, ramas, merges y commits.
 
 | Commit |Mensaje | Descripción |
 |------ |------- |----------- |
-| ‘7510748‘| Se añadio el primerarchivo | Creación inicial del repositorio conel
-primer archivo(‘codigo1.py‘). |
+| ‘7510748‘| Se añadio el primerarchivo | Creación inicial del repositorio con el primer archivo(‘codigo1.py‘). |
 | 'f0918cf'| Se hicieron cambioenen el primer archivo |Modificaciones en ‘codigo1.py‘ en la ramaprincipal. |
 | ‘de0525d‘| Se añade un nuevoarchivo a la rama1 |Creación de ‘codigo2.py‘en la rama ‘rama1‘. |
 | ‘2607518‘| Se agrega codigo3 arama2 | Creación de‘codigo3.py‘ en la rama‘rama2‘. |
