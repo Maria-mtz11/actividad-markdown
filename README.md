@@ -1,62 +1,34 @@
-# Actividad Markdown
 
-Repositorio de práctica para aprender Markdown y GitHub.
+ # Git Ejemplo
+Repositorio deejemplo para practicar Git, ramas, merges y commits.
 
-## Integrantes
+## Archivosdel proyecto
 
-- María Guadalupe
-- Ingeniería en Tecnologías Computacionales
+- **codigo1.py**: Primer archivo del proyecto, creado y modificadoen la rama principal.
+- **codigo2.py**: Archivo añadido en larama ‘rama1‘ y posteriormente fusionado.
+- **codigo3.py**: Archivo creado en larama ‘rama2‘.
+- **codigo4.py**: Archivo añadido directamente a la rama principal (‘main‘).
 
-## Descripción
+## Historialde commits
 
-Este documento fue creado para practicar la sintaxis Markdown y subir archivos a GitHub.
+| Commit |Mensaje | Descripción |
+|------ |------- |----------- |
+| ‘7510748‘| Se añadio el primerarchivo | Creación inicial del repositorio conel
+primer archivo(‘codigo1.py‘). |
+| 'f0918cf'| Se hicieron cambioenen el primer archivo |Modificaciones en ‘codigo1.py‘ en la ramaprincipal. |
+| ‘de0525d‘| Se añade un nuevoarchivo a la rama1 |Creación de ‘codigo2.py‘en la rama ‘rama1‘. |
+| ‘2607518‘| Se agrega codigo3 arama2 | Creación de‘codigo3.py‘ en la rama‘rama2‘. |
+| ‘8104612‘| Se añde codgio 4a ramaa principal | Creación de ‘codigo4.py‘ directamente en ‘main‘. |
+| ‘cb1557c‘| Merge branch ‘main‘ into rama2 | Fusión dela rama ‘main‘ dentrode ‘rama2‘. |
+| ‘d001806‘| Actualización de archivos | Última actualizaciónde archivos en la rama
+principal (‘main‘). |
+## Ramas
+- **main**:Rama principal del proyecto. Contiene los archivosfinales.
+- **rama1**:Rama donde se creó ‘codigo2.py‘.
+- **rama2**:Rama donde se creó ‘codigo3.py‘ y se realizóun merge con ‘main‘.
+## Cómo usar
+Este repositorio es solo para prácticade Git. Puedes clonarlo, crear nuevas ramas, hacer
+cambios y experimentar con merges y resolución de conflictos.
 
-## Ejemplos de sintaxis
-
-### Texto en negrita
-
-**Hola mundo**
-
-### Texto en cursiva
-
-*Texto en cursiva*
-
-### Texto en cursiva y negritas
-***Hola mundo***
-
-### Lista
-
-- Elemento 1
-- Elemento 2
-- Elemento 3
-
-### Lista ordenada
-
-1. Paso uno
-2. Paso dos
-3. Paso tres
-
-### Citas
-– >Esto es una cita
-
-### Código
-
-```python
-print("Hola mundo")
-```
-
-### Líneas horizontales:
-– —
-– ***
-
-### Tabla
-
-| Nombre | Edad |
-|--------|------|
-| María  | 20 |
-
-### Tareas
-
-- [x] Crear archivo
-- [x] Subir a GitHub
-- [ ] Finalizar reporte
+---
+*Proyecto de ejemplo para aprender Git.*
